@@ -1,0 +1,141 @@
+#cloth__row {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#cloth__row td,
+#cloth__row th {
+  border: 1px solid #ddd;
+  padding: 1rem;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#cloth__row th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #c87941;
+  color: white;
+}
+
+#cloth__row td {
+  text-align: center;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  width: 100%;
+  background-color: #290001;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: 0.2s all ease-out;
+  display: inline-block;
+}
+
+.submit__btn:hover {
+  background-color: #87431d;
+  letter-spacing: 1px;
+  transform: translateY(-2px);
+}
+
+.from__group {
+  width: 800px;
+  margin: auto;
+  margin-bottom: 48px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.conditions {
+  margin-top: 10px;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.cloth__product__view {
+  width: 1050px;
+  margin: auto;
+}
+
+.without__product__heading {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    & h1 {
+      margin: 0;
+    }
+}
+
+.remove__all__data {
+  background-color: rgb(227, 25, 25);
+  max-width: fit-content;
+  margin: 1rem 0;
+  padding-inline: 5rem;
+
+}
+
+.remove__all__data:hover {
+  background-color: rgb(211, 48, 48);
+}
+
+.deleteItem {
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  width: 2%;
+}
+
+.manufacture {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+input[type="radio"] {
+  width: 2%;
+}
+
+.remove__cloth {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.store__heading {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
